@@ -39,7 +39,6 @@ https://eslint.org/docs/user-guide/getting-started
  
 # Plugins
 
-- Markdown &rarr; mit JavaFX preview (for markdown)??? IntelliJ hat dies selbst vorgeschlagen bei offenem Markdown File.
 - GitToolBox
 - Key Promoter X (display ballon tips with keyboard shortcuts for IntelliJ actions)
 - SvgViewer 2
