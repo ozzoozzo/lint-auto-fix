@@ -1,0 +1,25 @@
+{
+  "string": "localhost",
+  "number": 3030,
+  "boolean": true,
+  "object": {
+	"default": 10,
+	"max": 50
+  },
+  "array": [
+	1,
+	2,
+	3,
+	4
+  ],
+  "nested": {
+	"property": {
+	  "what": 1,
+	  "list": [
+		"lorem",
+		"ipsum"
+	  ],
+	  "ever": "test"
+	}
+  }
+}
