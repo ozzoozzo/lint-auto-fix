@@ -1,6 +1,31 @@
 # lint-auto-fix
 Save action: automatically fix ESLint errors
 
+# Initial Project Setup
+
+`npm init`
+
+`npm install eslint --save-dev`
+
+##### ESLint
+
+https://eslint.org/docs/user-guide/getting-started
+
+`.\node_modules\.bin\eslint --init`
+
+- How would you like to configure ESLint? Answer questions about your style
+- Are you using ECMAScript 6 features? Yes
+- Are you using ES6 modules? Yes
+- Where will your code run? Browser
+- Do you use CommonJS? No
+- Do you use JSX? Yes
+- Do you use React? Yes
+- What style of indentation do you use? Tabs
+- What quotes do you use for strings? Single
+- What line endings do you use? Unix
+- Do you require semicolons? Yes
+- What format do you want your config file to be in? JSON
+
 # Links
 
 - https://www.google.ch/search?q=husky+js&oq=husky+js&aqs=chrome..69i57.1207j0j4&sourceid=chrome&ie=UTF-8
@@ -22,31 +47,41 @@ Save action: automatically fix ESLint errors
 # Settings
 
 ##### Appearance & Behavior > Disable "safe write"
+
 ![Settings](screenshots/22-11-_2017_09-11-22.png)
 
 ##### Appearance & Behavior > Disable "check for automatic updates"
+
 ![Settings](screenshots/22-11-_2017_09-48-09.png)
 
 ##### Appearance & Behavior > Disable "usage statistics"
+
 ![Settings](screenshots/22-11-_2017_09-51-43.png)
 
 ##### Editor > General (CamelHumps &rarr; cf. Smart Keys)
+
 ![Settings](screenshots/22-11-_2017_10-01-18.png)
 
 ##### Editor > Code Folding
+
 ![Settings](screenshots/22-11-_2017_09-54-36.png)
 
 ##### Editor > Editor Tabs
+
 ![Settings](screenshots/22-11-_2017_09-57-03.png)
 
 ##### Editor > Smart Keys (CamelHumps &rarr; cf. Editor General)
+
 ![Settings](screenshots/22-11-_2017_09-59-17.png)
 
 ##### Editor > Font
+
 ![Settings](screenshots/22-11-_2017_10-08-07.png)
 
 ##### Editor > Code Style
+
 - Project specific settings &rarr; cf. `<project>/.idea/codeStyleSettings.xml`
+
 ![Settings](screenshots/22-11-_2017_10-11-07.png)
 
 ##### Editor > Code Style > Create file `.editorconfig`
@@ -60,7 +95,7 @@ root = true
 [*]
 charset = utf-8
 indent_style = tab
-end_of_line = crlf
+end_of_line = lf
 trim_trailing_whitespace = true
 insert_final_newline = true
 
@@ -75,6 +110,7 @@ trim_trailing_whitespace = false
 ![Settings](screenshots/22-11-_2017_10-14-17.png)
 
 ##### Editor > Code Style > JSON
+
 - Trick for auto-format JSON files &rarr; set 'Right margin (columns)' = 1
 - With this trick, the JSON will be nicely formatted on 'Reformat Code (Ctrl Alt L)'
 - Hmmmm... this trick seems not to be necessary with IntelliJ 2017.x
@@ -86,79 +122,43 @@ trim_trailing_whitespace = false
 ![Settings](screenshots/22-11-_2017_10-24-23.png)
 
 ##### Editor > Inspections
+
 ```diff
 - TODO
 ```
+
 ![Settings](screenshots/)
 
 ##### Editor > Live Templates
+
 ```diff
 - TODO
 - console.log
 ```
+
 ![Settings](screenshots/)
 
+##### Languages & Frameworks > JavaScript
 
+- React JSX (JSX in ECMAScript 6)
+
+![Settings](screenshots/22-11-_2017_12-46-49.png)
+
+##### Languages & Frameworks > JavaScript > Code Quality Tools > ESLint
+
+![Settings](screenshots/22-11-_2017_12-51-13.png)
+
+##### Languages & Frameworks > Markdown
+
+- jar:file:/C:/Program%20Files/JetBrains/IntelliJ%20IDEA%202017.2.6/plugins/markdown/lib/markdown.jar!/org/intellij/plugins/markdown/settings/default.css
+- Markdown Preview Browser: **JavaFX WebView**
+
+![Settings](screenshots/22-11-_2017_13-20-25.png)
+
+![Settings](screenshots/22-11-_2017_13-21-15.png)
+
+##### TODO
 
 ```diff
-- TODOs
 - typo (ignore spelling)
 ```
-
-
-##### Title
-![Settings](screenshots/)
-
-##### Title
-![Settings](screenshots/)
-
-##### Title
-![Settings](screenshots/)
-
-##### Title
-![Settings](screenshots/)
-
-##### Title
-![Settings](screenshots/)
-
-##### Title
-![Settings](screenshots/)
-
-##### Title
-![Settings](screenshots/)
-
-##### Title
-![Settings](screenshots/)
-
-##### Title
-![Settings](screenshots/)
-
-##### Title
-![Settings](screenshots/)
-
-##### Title
-![Settings](screenshots/)
-
-##### Title
-![Settings](screenshots/)
-
-##### Title
-![Settings](screenshots/)
-
-##### Title
-![Settings](screenshots/)
-
-##### Title
-![Settings](screenshots/)
-
-##### Title
-![Settings](screenshots/)
-
-##### Title
-![Settings](screenshots/)
-
-##### Title
-![Settings](screenshots/)
-
-##### Title
-![Settings](screenshots/)
