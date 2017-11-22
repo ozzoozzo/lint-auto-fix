@@ -1,0 +1,19 @@
+{
+  "name": "lint-auto-fix",
+  "version": "0.0.1",
+  "description": "Save action: automatically fix ESLint errors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozzoozzo/lint-auto-fix.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozzoozzo/lint-auto-fix/issues"
+  },
+  "homepage": "https://github.com/ozzoozzo/lint-auto-fix#readme"
+}
