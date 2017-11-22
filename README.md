@@ -108,6 +108,11 @@ trim_trailing_whitespace = false
 
 ![Settings](screenshots/22-11-_2017_10-14-17.png)
 
+##### Editor > Code Style > JavaScript
+
+![Settings](screenshots/22-11-_2017_18-24-35.png)
+
+
 ##### Editor > Code Style > JSON
 
 - Trick for auto-format JSON files &rarr; set 'Right margin (columns)' = 1
