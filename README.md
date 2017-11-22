@@ -7,7 +7,7 @@ Save action: automatically fix ESLint errors
 
 `npm install eslint --save-dev`
 
-##### ESLint
+### ESLint
 
 https://eslint.org/docs/user-guide/getting-started
 
@@ -45,45 +45,45 @@ https://eslint.org/docs/user-guide/getting-started
 
 # Settings
 
-##### Appearance & Behavior > Disable "safe write"
+### Appearance & Behavior > Disable "safe write"
 
 ![Settings](screenshots/22-11-_2017_09-11-22.png)
 
-##### Appearance & Behavior > Disable "check for automatic updates"
+### Appearance & Behavior > Disable "check for automatic updates"
 
 ![Settings](screenshots/22-11-_2017_09-48-09.png)
 
-##### Appearance & Behavior > Disable "usage statistics"
+### Appearance & Behavior > Disable "usage statistics"
 
 ![Settings](screenshots/22-11-_2017_09-51-43.png)
 
-##### Editor > General (CamelHumps &rarr; cf. Smart Keys)
+### Editor > General (CamelHumps &rarr; cf. Smart Keys)
 
 ![Settings](screenshots/22-11-_2017_10-01-18.png)
 
-##### Editor > Code Folding
+### Editor > Code Folding
 
 ![Settings](screenshots/22-11-_2017_09-54-36.png)
 
-##### Editor > Editor Tabs
+### Editor > Editor Tabs
 
 ![Settings](screenshots/22-11-_2017_09-57-03.png)
 
-##### Editor > Smart Keys (CamelHumps &rarr; cf. Editor General)
+### Editor > Smart Keys (CamelHumps &rarr; cf. Editor General)
 
 ![Settings](screenshots/22-11-_2017_09-59-17.png)
 
-##### Editor > Font
+### Editor > Font
 
 ![Settings](screenshots/22-11-_2017_10-08-07.png)
 
-##### Editor > Code Style
+### Editor > Code Style
 
 - Project specific settings &rarr; cf. `<project>/.idea/codeStyleSettings.xml`
 
 ![Settings](screenshots/22-11-_2017_10-11-07.png)
 
-##### Editor > Code Style > Create file `.editorconfig`
+### Editor > Code Style > Create file `.editorconfig`
 
 ```properties
 # EditorConfig is awesome: http://EditorConfig.org
@@ -108,12 +108,11 @@ trim_trailing_whitespace = false
 
 ![Settings](screenshots/22-11-_2017_10-14-17.png)
 
-##### Editor > Code Style > JavaScript
+### Editor > Code Style > JavaScript
 
 ![Settings](screenshots/22-11-_2017_18-24-35.png)
 
-
-##### Editor > Code Style > JSON
+### Editor > Code Style > JSON
 
 - Trick for auto-format JSON files &rarr; set 'Right margin (columns)' = 1
 - With this trick, the JSON will be nicely formatted on 'Reformat Code (Ctrl Alt L)'
@@ -125,7 +124,7 @@ trim_trailing_whitespace = false
 
 ![Settings](screenshots/22-11-_2017_10-24-23.png)
 
-##### Editor > Inspections
+### Editor > Inspections
 
 ```diff
 - TODO
@@ -133,7 +132,7 @@ trim_trailing_whitespace = false
 
 ![Settings](screenshots/)
 
-##### Editor > Live Templates
+### Editor > Live Templates
 
 ```diff
 - TODO
@@ -142,17 +141,17 @@ trim_trailing_whitespace = false
 
 ![Settings](screenshots/)
 
-##### Languages & Frameworks > JavaScript
+### Languages & Frameworks > JavaScript
 
 - React JSX (JSX in ECMAScript 6)
 
 ![Settings](screenshots/22-11-_2017_12-46-49.png)
 
-##### Languages & Frameworks > JavaScript > Code Quality Tools > ESLint
+### Languages & Frameworks > JavaScript > Code Quality Tools > ESLint
 
 ![Settings](screenshots/22-11-_2017_12-51-13.png)
 
-##### Languages & Frameworks > Markdown
+### Languages & Frameworks > Markdown
 
 - jar:file:/C:/Program%20Files/JetBrains/IntelliJ%20IDEA%202017.2.6/plugins/markdown/lib/markdown.jar!/org/intellij/plugins/markdown/settings/default.css
 - Markdown Preview Browser: **JavaFX WebView**
@@ -161,7 +160,7 @@ trim_trailing_whitespace = false
 
 ![Settings](screenshots/22-11-_2017_13-21-15.png)
 
-##### TODO
+### TODO
 
 ```diff
 - typo (ignore spelling)
