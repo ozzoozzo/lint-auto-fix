@@ -42,6 +42,9 @@ https://eslint.org/docs/user-guide/getting-started
 - GitToolBox
 - Key Promoter X (display ballon tips with keyboard shortcuts for IntelliJ actions)
 - SvgViewer 2
+- File Watchers
+
+![Plugins](screenshots/24-11-_2017_12-14-31.png)
 
 # Settings
 
