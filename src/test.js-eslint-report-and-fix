@@ -1,0 +1,56 @@
+ORIGINAL src
+------------------------------------------------
+function bla() {
+	console.log(123)
+	  const store = {
+			value: 123
+	}
+}
+
+
+FIXED src
+------------------------------------------------
+function bla() {
+	console.log(123);
+	  const store = {
+		value: 123,
+	};
+}
+
+
+COMMAND LINE
+------------------------------------------------
+D:\Development\wsIntelliJ-Ultimate\lint-auto-fix>.\node_modules\.bin\eslint src/test.js
+
+D:\Development\wsIntelliJ-Ultimate\lint-auto-fix\src\test.js
+  1:10  error  'bla' is defined but never used                  no-unused-vars
+  1:17  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  2:2   error  Unexpected console statement                     no-console
+  2:18  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  2:18  error  Missing semicolon                                semi
+  3:2   error  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+  3:10  error  'store' is assigned a value but never used       no-unused-vars
+  3:19  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  4:1   error  Expected indentation of 2 tabs but found 3       indent
+  4:14  error  Missing trailing comma                           comma-dangle
+  4:14  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  5:3   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  5:3   error  Missing semicolon                                semi
+  6:2   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+
+✖ 14 problems (14 errors, 0 warnings)
+  10 errors, 0 warnings potentially fixable with the `--fix` option.
+
+
+D:\Development\wsIntelliJ-Ultimate\lint-auto-fix>.\node_modules\.bin\eslint src/test.js --fix
+
+D:\Development\wsIntelliJ-Ultimate\lint-auto-fix\src\test.js
+  1:10  error  'bla' is defined but never used             no-unused-vars
+  2:2   error  Unexpected console statement                no-console
+  3:2   error  Mixed spaces and tabs                       no-mixed-spaces-and-tabs
+  3:10  error  'store' is assigned a value but never used  no-unused-vars
+
+✖ 4 problems (4 errors, 0 warnings)
+
+
+D:\Development\wsIntelliJ-Ultimate\lint-auto-fix>
