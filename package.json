@@ -16,7 +16,15 @@
     "url": "https://github.com/ozzoozzo/lint-auto-fix/issues"
   },
   "homepage": "https://github.com/ozzoozzo/lint-auto-fix#readme",
+  "dependencies": {
+    "babel-runtime": "6.26.0",
+    "react": "16.1.1"
+  },
   "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-eslint": "8.0.2",
+    "babel-loader": "7.1.2",
+    "babel-preset-react": "6.24.1",
     "eslint": "4.11.0",
     "eslint-plugin-react": "7.5.1"
   }
