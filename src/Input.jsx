@@ -4,9 +4,9 @@ import React, { PureComponent, PropTypes } from 'react';
 class InputNew extends PureComponent {
 
 	constructor(props) {
-		super(props);
+        super(props);
 		this.state = {
-			value: props.value || '',
+			value: props.value || ''
 		};
 	}
 
@@ -70,7 +70,7 @@ InputNew.propTypes = {
 	maxLength: PropTypes.number,
 	width: PropTypes.number,
 	onChange: PropTypes.func.isRequired,
-	warning: PropTypes.any,
+	warning: PropTypes.any
 };
 
 InputNew.defaultProps = {};
