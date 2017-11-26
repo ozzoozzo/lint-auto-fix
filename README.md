@@ -46,6 +46,17 @@ https://eslint.org/docs/user-guide/getting-started
 
 ![Plugins](screenshots/24-11-_2017_12-14-31.png)
 
+# External Tools
+
+```
+npm run lint-fix
+C:\Program Files (x86)\nodejs\npm.cmd
+run lint-fix $FilePathRelativeToProjectRoot$
+$ProjectFileDir$
+```
+
+![ExternalTools](screenshots/26-11-_2017_19-09-18.png)
+
 # Settings
 
 ### Appearance & Behavior > Disable "safe write"
