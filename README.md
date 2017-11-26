@@ -28,6 +28,10 @@ https://eslint.org/docs/user-guide/getting-started
 
 # Links
 
+Markdown
+- [GitHub-Flavored-Markdown-(GFM)-language-IDs](https://github.com/jmm/gfm-lang-ids/wiki/GitHub-Flavored-Markdown-(GFM)-language-IDs)
+
+Husky etc.
 - https://www.google.ch/search?q=husky+js&oq=husky+js&aqs=chrome..69i57.1207j0j4&sourceid=chrome&ie=UTF-8
 - https://davidwalsh.name/prevent-bad-commits-husky
 - https://github.com/typicode/husky
