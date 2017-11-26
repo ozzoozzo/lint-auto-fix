@@ -4,6 +4,10 @@
   "description": "Save action: automatically fix ESLint errors",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint",
+    "lint-2": "eslint --quiet src/test.js",
+    "lint-fix": "eslint --fix",
+    "lint-fix-2": "eslint --fix src/test.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
