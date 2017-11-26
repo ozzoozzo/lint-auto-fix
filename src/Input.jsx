@@ -7,7 +7,7 @@ class InputNew extends PureComponent {
         super(props);
 		this.state = {
 			value: props.value || ''
-		};
+		}
 	}
 
 	handleChange = (event) => {
@@ -70,7 +70,7 @@ InputNew.propTypes = {
 	maxLength: PropTypes.number,
 	width: PropTypes.number,
 	onChange: PropTypes.func.isRequired,
-	warning: PropTypes.any
+	warning: PropTypes.any,
 };
 
 InputNew.defaultProps = {};
