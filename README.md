@@ -63,7 +63,13 @@ $ProjectFileDir$
 
 # File Watchers
 
+**Immediate file synchronization = ON** &rarr; dann wird immer gleich der Fix angewendet &rarr; dies ist ziemlich nervig!
+
 ![FileWatchers](screenshots/26-11-_2017_19-32-29.png)
+
+**Immediate file synchronization = OFF** &rarr; dann wird der Fix erst angewendet, wenn Ctrl-S gedrückt wurde oder die IDE den Fokus verloren hat &rarr; dies passt!
+
+![FileWatchers](screenshots/26-11-_2017_19-43-25.png)
 
 # Settings
 
