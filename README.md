@@ -61,6 +61,10 @@ $ProjectFileDir$
 
 ![ExternalTools](screenshots/26-11-_2017_19-09-18.png)
 
+# File Watchers
+
+![FileWatchers](screenshots/26-11-_2017_19-32-29.png)
+
 # Settings
 
 ### Appearance & Behavior > Disable "safe write"
